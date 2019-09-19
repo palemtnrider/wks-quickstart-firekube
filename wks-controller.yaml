@@ -19,6 +19,7 @@ spec:
         name: wks-controller
         control-plane: wks-controller
         controller-tools.k8s.io: "1.0"
+        createdBy: "Mark Emeis"
     spec:
       nodeSelector:
         node-role.kubernetes.io/master: ""
