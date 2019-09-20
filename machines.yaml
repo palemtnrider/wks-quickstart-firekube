@@ -6,6 +6,7 @@ items:
     labels:
       set: master
     name: master-0
+    namespace: weavek8sops
   spec:
     providerSpec:
       value:
@@ -23,6 +24,7 @@ items:
     labels:
       set: worker
     name: worker-0
+    namespace: weavek8sops
   spec:
     providerSpec:
       value:
