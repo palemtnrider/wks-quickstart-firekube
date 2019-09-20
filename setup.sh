@@ -432,9 +432,9 @@ if [ $download == "yes" ]; then
 fi
 
 # On macOS, we only support the docker backend.
-#if [ $(goos) == "darwin" ]; then
-#    set_config_backend docker
-#fi
+if [ $(goos) == "darwin" ]; then
+    set_config_backend docker
+fi
 
 check_command docker
 check_version jk $JK_VERSION
