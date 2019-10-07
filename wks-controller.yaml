@@ -43,7 +43,7 @@ spec:
         operator: Exists
       containers:
       - name: controller
-        image: quay.io/wksctl/controller:0.8.0
+        image: docker.io/jrryjcksn/wks-controller:footloose-scaling-d7b99ec2
         command:
         - /bin/controller
         - --verbose
